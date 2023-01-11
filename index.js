@@ -8,7 +8,7 @@ function valMinMax(arr) {
     return (a-b)
     
   });
-    // je ne comprends pas
+
   for(let i = 0; i < 4; i++){
     sum1 += arr[i]
   }
@@ -71,12 +71,9 @@ function arcadeRank(top_scores, jeu) {
         if(jeu[i] < removeDuplicates[j]) {
             count ++;
         }
-
-    
     }
     
     arrReturn[i] = count;
-
   }
  
   return arrReturn;
